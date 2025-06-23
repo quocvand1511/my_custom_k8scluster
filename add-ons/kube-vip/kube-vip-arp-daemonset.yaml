@@ -3,7 +3,7 @@ kind: DaemonSet
 metadata:
   creationTimestamp: null
   name: kube-vip-ds
-  namespace: kube-system
+  namespace: kube-vip
 spec:
   selector:
     matchLabels:
