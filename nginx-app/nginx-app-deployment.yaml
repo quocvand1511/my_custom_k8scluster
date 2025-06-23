@@ -2,8 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
+  namespace: nginx-app
   labels:
-    app: nginx
+    app: nginx-app
 spec:
   replicas: 2
   selector:
