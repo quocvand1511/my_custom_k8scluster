@@ -42,4 +42,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: kube-vip
-  namespace: kube-system
+  namespace: kube-vip-system
