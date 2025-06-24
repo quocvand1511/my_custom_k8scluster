@@ -32,7 +32,7 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: kube-vip-cloud-controller
-  namespace: kube-system
+  namespace: kube-vip-system
 ---
 apiVersion: apps/v1
 kind: Deployment
