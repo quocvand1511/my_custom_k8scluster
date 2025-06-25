@@ -7,7 +7,7 @@ metadata:
     kube-vip.io/loadbalancerIPs: '192.168.138.188'
   labels:
     implementation: kube-vip
-    ipam-address: 192.168.0.220
+    ipam-address: '192.168.138.188'
 spec:
   selector:
     app: nginx
