@@ -15,5 +15,4 @@ spec:
     - port: 8080
       targetPort: 80
   externalTrafficPolicy: Local
-  loadBalancerIP: 192.168.138.188
   type: LoadBalancer
