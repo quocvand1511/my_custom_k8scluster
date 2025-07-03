@@ -335,6 +335,7 @@ metadata:
 apiVersion: v1
 kind: Service
 metadata:
+  anota
   labels:
     app.kubernetes.io/component: controller
     app.kubernetes.io/instance: ingress-nginx
