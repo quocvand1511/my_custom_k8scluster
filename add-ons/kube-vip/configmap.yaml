@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: kubevip
-  namespace: kube-vip-system
+  namespace: kube-system
 data:
   range-ingress-nginx: 192.168.135.201-192.168.135.210
   cidr-ingress-nginx: 192.168.135.192/28
