@@ -1,7 +1,14 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: kubevip
-  namespace: kube-vip-system
+  name: kube-vip
+  namespace: kube-system
 data:
-  range-global: 192.168.135.200-192.168.135.240
+  cidr: 192.168.135.0/24
+  interface: ens160
+  vip_arp: "true"
+  vip_loglevel: "5"
+  svc_enable: "true"
+  service_election: "true"
+  annotations: |
+    kube-vip.io/loadbalancerIPs
