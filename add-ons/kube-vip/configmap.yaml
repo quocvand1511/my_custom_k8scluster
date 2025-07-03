@@ -4,5 +4,10 @@ metadata:
   name: kubevip
   namespace: kube-vip-system
 data:
-  range-ingress-nginx: 192.168.135.201-192.168.135.211
-  range-nginx-app: 192.168.135.211-192.168.135.213
+  range-ingress-nginx: 192.168.135.201-192.168.135.210
+  cidr-ingress-nginx: 192.168.135.192/28
+  allow-share-ingress-nginx: "true"
+  range-nginx-app: 192.168.135.212-192.168.135.213
+  cidr-nginx-app: 192.168.135.212/30
+  range-global: 192.168.135.200-192.168.135.215
+  cidr-global: 192.168.135.192/28
