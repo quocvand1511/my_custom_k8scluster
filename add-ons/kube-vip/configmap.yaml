@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: kube-vip
-  namespace: kube-system
+  namespace: kube-vip-system
 data:
   cidr: 192.168.135.0/24
   interface: ens160
